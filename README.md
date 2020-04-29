@@ -19,7 +19,7 @@ Before getting started you should already have your OpenWater instance setup.  T
 For **Login redirect URL** note your OpenWater instance.  In our example our instance is demo.imis-inspire.com.  
 
   
-The redirect URL will be **https://sso.imis-inspire.com/sso/process/**[instance-domain-name]  
+The redirect URL will be **https://sso.imis-inspire.com/sso/process/** [instance-domain-name]  
   
 Thus for our example the final redirect URL will be https://sso.imis-inspire.com/sso/process/demo.imis-inspire.com  
   
