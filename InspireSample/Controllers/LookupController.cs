@@ -7,11 +7,25 @@ using System.Web.Mvc;
 namespace InspireSample.Controllers
 {
     public class LookupController : Controller
-    {                
-        public ActionResult Find(string query = "")
+    {        
+        [HttpPost]
+        public ActionResult Validate(ValidateRequest req)
+        {
+            if (req.value == "allowed")
+                return Json(new 
+                {
+                    isValid = true,
+                    message = ""
+                });
+            else
+                return Json(new 
+                {
+                    isValid = false,
+                    message = "Invalid Message"
+                });
+        }
+            public ActionResult Find(string query = "")
         {            
-            //Enable CORS
-            Response.AppendHeader("Access-Control-Allow-Origin", "*");
 
             var fakeDb = FakeLookupDatabse();
             var matches = fakeDb.Where(item => item.FullName.ToLower().Contains(query.ToLower())).ToArray();
@@ -33,9 +47,6 @@ namespace InspireSample.Controllers
 
         public ActionResult Fill(string value)
         {
-            //Enable CORS
-            Response.AppendHeader("Access-Control-Allow-Origin", "*");
-
             var fakeDb = FakeLookupDatabse();
             var fakeItem = fakeDb.Where(c => c.FullName == value).First();
 
@@ -101,6 +112,10 @@ namespace InspireSample.Controllers
             public List<PrefillItem> fields { get; set; }
         }
 
+        public class ValidateRequest
+        {
+            public string value { get; set; }
+        }
 
         private static List<FakeData> FakeLookupDatabse()
         {
