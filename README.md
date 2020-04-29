@@ -66,12 +66,12 @@ Once again replace the [instance-domain-name] with your instance name as you did
 ![image](https://user-images.githubusercontent.com/7950956/80551710-6753d800-8992-11ea-86dc-7eeb051f8ca8.png)  
   
 Then paste in your:  
-Client ID: from Step 2  
-Client Secret: from Step 2  
-iMIS Login Page: from Step 13  
-Token Endpoint: This is your REST api token endpoint previously known as Asi.Scheduler token end point  
-Login Button Text: this can be Login or Login with iMIS  
-Single Sign Out Url: this is the log out URL from step 14  
+**Client ID**: from Step 2  
+**Client Secret**: from Step 2  
+**iMIS Login Page**: from Step 13  
+**Token Endpoint**: This is your REST api token endpoint previously known as Asi.Scheduler token end point  
+**Login Button Text**: this can be Login or Login with iMIS  
+**Single Sign Out Url**: this is the log out URL from step 14  
 
 16. Now let's test it out.  At the top of the screen right click Public Website and load it in an incognito window
 ![image](https://user-images.githubusercontent.com/7950956/80551720-7044a980-8992-11ea-81ca-dc9be6ef4390.png)  
