@@ -29,7 +29,7 @@ Thus for our example the final redirect URL will be https://sso.imis-inspire.com
 5.  Import SiteNavigation.XML
 ![image](https://user-images.githubusercontent.com/7950956/80551339-25766200-8991-11ea-9fe3-1b09c1304df9.png)
 
-6. For the Content URL use **https://sso.imis-inspire.com/sso/admin/**[instance-domain-name]  
+6. For the Content URL use **https://sso.imis-inspire.com/sso/admin/** [instance-domain-name]  
   
 Once again replace the [instance-domain-name] with your instance name as you did in step 3.  
 
