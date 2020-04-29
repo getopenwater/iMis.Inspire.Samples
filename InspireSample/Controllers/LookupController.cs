@@ -8,8 +8,8 @@ namespace InspireSample.Controllers
 {
     public class LookupController : Controller
     {                
-        public ActionResult Find(string query)
-        {
+        public ActionResult Find(string query = "")
+        {            
             //Enable CORS
             Response.AppendHeader("Access-Control-Allow-Origin", "*");
 
