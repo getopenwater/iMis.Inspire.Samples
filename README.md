@@ -1,5 +1,8 @@
 # iMIS Inspire Installation Guide
 
+[![Join the chat at https://gitter.im/iMis-Inspire-Samples/community](https://badges.gitter.im/iMis-Inspire-Samples/community.svg)](https://gitter.im/iMis-Inspire-Samples/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
 iMIS Inspire is powered by [OpenWater](https://www.getopenwater.com)
 
 ## Installation
