@@ -84,3 +84,10 @@ Then paste in your:
 ![image](https://user-images.githubusercontent.com/7950956/80551756-8d797800-8992-11ea-94c1-a58ab2ef1cf1.png)
 
 If all goes well you should be done with connecting iMIS with OpenWater in under 10 minutes!
+
+### TROUBLE SHOOTING:
+
+1. Under Page Builder toggle the "Content is restricted to members" option. 
+/RiSE/Page_builder/Manage_content/iMIS/ContentManagement/ContentDesigner.aspx?
+
+![2020-12-10 21_31_32-Content designer](https://user-images.githubusercontent.com/6317847/101820522-6477b300-3b2f-11eb-902e-38ce10e6051f.png)
